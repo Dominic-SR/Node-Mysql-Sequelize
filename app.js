@@ -1,6 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
-//var IndexRouter = require("./routes/index.routes")
+var IndexRouter = require("./routes/index.routes")
 
 const app = express();
 app.use(morgan('dev'));

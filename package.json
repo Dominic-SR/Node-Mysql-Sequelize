@@ -19,13 +19,16 @@
   },
   "homepage": "https://github.com/Dominic-SR/Node-Mysql-Sequelize#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
     "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
     "morgan": "^1.10.0",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
     "sequelize": "^6.12.4",
+    "sequelize-cli": "^6.3.0",
     "winston": "^3.3.3"
   }
 }

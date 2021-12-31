@@ -1,9 +1,9 @@
-// var express = require("express");
+var express = require("express");
 
-// var router = express.Router();
+var router = express.Router();
 
-// var UserRouter = require('./userRouter')
+var UserRouter = require('./user.routes')
 
-// router.use('/user',UserRouter)
+router.use('/user',UserRouter)
 
-// module.exports=router;
+module.exports=router;
